@@ -14,6 +14,15 @@ public class Program
         // - Favorite color
         // - Dream job
         // Hint: string variableName = Console.ReadLine();
+        Console.Write("Please enter your First and last name");
+        string fName = Console.Readline();
+        Console.Write("Please enter hometown (city, state): ");
+        string hometown = Console.Readline();
+        Console.Write("Enter your favorite color: ");
+        string favColor = Console.Readline();
+        Console.Write("Enter your dream job: ");
+        string dreamJob = Console.Readline();
+
 
         // TODO: Collect ACADEMIC INFORMATION
         // - Major (string)
@@ -22,6 +31,12 @@ public class Program
         // - Is full-time student? (bool from yes/no)
         // Hint: double gpa = double.Parse(Console.ReadLine());
         // Hint: bool isFullTime = answer.ToLower() == "yes";
+        Console.Write("");
+        string major = Console.Readline();
+        Console.Write("");
+
+        Console.Write("");
+        Console.Write("");
 
         // TODO: Collect ADDITIONAL DETAILS
         // - Age (int)
